@@ -1,0 +1,28 @@
+{
+  "name": "gustavoulyssea/magento-2-spam-filter",
+  "description": "This Magento 2 module will block spam orders, customers and addresses.",
+  "require": {
+    "php": ">=7.3.0"
+  },
+  "type": "magento2-module",
+  "license": [
+      "BSD-2-Clause"
+  ],
+  "authors": [
+    {
+      "name": "Gustavo Ulyssea",
+      "email": "suporte@gum.net.br",
+      "homepage": "https://gum.net.br",
+      "role": "Leader"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "GustavoUlyssea\\SpamFilter\\": ""
+    }
+  },
+    "version": "1.0.0"
+}
